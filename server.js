@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(enforce.HTTPS({ trustProtoHeader: true })); //enforce ssl
   app.use(express.static(path.join(__dirname, 'client/build'))); //set static files for node
   // active response to all paths
-  app.get('*', function (req, res) {
+  app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
   });
 }

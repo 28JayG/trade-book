@@ -3,22 +3,22 @@
 # dependencies
 /node_modules
 /client/node_modules
-/clinet/.pnp
-/clinet/.pnp.js
+/client/.pnp
+/client/.pnp.js
 
 # testing
-/clinet/coverage
+/client/coverage
 
 # production
-/clinet/build
+/client/build
 
 # misc
 .env
-/clinet/.DS_Store
-/clinet/.env.local
-/clinet/.env.development.local
-/clinet/.env.test.local
-/clinet/.env.production.local
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*

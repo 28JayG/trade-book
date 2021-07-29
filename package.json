@@ -8,7 +8,8 @@
     "server": "nodemon server.js",
     "build": "cd client && yarn build",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn --only=dev --no-shrinkwrap && yarn build"
   },
   "author": "Jay Gandhi",
   "license": "ISC",

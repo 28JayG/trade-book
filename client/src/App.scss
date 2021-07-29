@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  max-width: 100%;
+
+  .title {
+    margin: 40px 25px;
+  }
+
+  .trades {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
